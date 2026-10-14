@@ -49,6 +49,11 @@ npm run build
 npm run start
 ```
 
+### 7. Deploying to Render
+The repository includes a Render Blueprint (`render.yaml`). In Render, create a new Blueprint Instance, connect the `anchalkushwaha-12/Edulearner` repository, and deploy the `main` branch. The Blueprint builds the frontend, starts the Express server, configures a generated `JWT_SECRET`, and uses `/api/health` for health checks.
+
+Set `GEMINI_API_KEY` in the Render service environment to enable Gemini-powered tutoring; without it, the educational fallback tutor is used. The free service uses ephemeral storage, so accounts and other database changes stored in `data/database.json` may be lost when the service restarts or redeploys.
+
 ---
 
 ## Architecture Summary
