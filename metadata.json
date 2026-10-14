@@ -1,0 +1,6 @@
+{
+  "name": "LearnMate AI",
+  "description": "Quality Education for Every Student, Everywhere. An AI-powered personalized, multilingual learning platform designed for rural students with offline access, AI tutoring, interactive quizzes, and mastery tracking.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
